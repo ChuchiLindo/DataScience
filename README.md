@@ -3,3 +3,6 @@
 
 ## Google slides 50 pictures for project 
 [Google slides](https://docs.google.com/presentation/d/1ob1yhX3JYVkjemDV4on8GTA7QURA7grB__jzy_RYtZE/edit?usp=sharing)
+
+## Colab Notebook
+[Notebook] fiil in link 
