@@ -1,3 +1,4 @@
+
 # DataScience
 <img src = "https://cdn.futura-sciences.com/buildsv6/images/wide1920/9/5/0/950321c11d_50173256_data-science-1.jpg" >
 
@@ -6,3 +7,4 @@
 
 ## Colab Notebooks
 [Notebook 1 Images ](https://colab.research.google.com/drive/1XSP0zOtB8w2Ou9cWPjY7-H5xsZ9WJv5s?authuser=2#scrollTo=OcM-MSMRmAXL)
+[Notebook 2 Python notes arrays & matrix]()
