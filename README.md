@@ -9,3 +9,5 @@
 [Notebook 1 Images ](https://colab.research.google.com/drive/1XSP0zOtB8w2Ou9cWPjY7-H5xsZ9WJv5s?authuser=2#scrollTo=OcM-MSMRmAXL)
 
 [Notebook 2 Python notes arrays & matrix]()
+
+[Notebook 3 Hahn-book Deep learning with pytorch](https://colab.research.google.com/drive/1Y4sN2QWGLJHYdNnnNHS_ae9qjU4Fksf9?authuser=2#scrollTo=Zbi9NCwSZRMs)
