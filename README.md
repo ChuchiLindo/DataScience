@@ -11,3 +11,6 @@
 [Notebook 2 Python notes arrays & matrix]()
 
 [Notebook 3 Hahn-book Deep learning with pytorch](https://colab.research.google.com/drive/1Y4sN2QWGLJHYdNnnNHS_ae9qjU4Fksf9?authuser=2#scrollTo=Zbi9NCwSZRMs)
+
+# Helpful Links
+[Least Squares](https://setosa.io/ev/ordinary-least-squares-regression/)
