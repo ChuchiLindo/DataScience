@@ -20,3 +20,6 @@
 [Spectrogram](https://musiclab.chromeexperiments.com/spectrogram/)
 
 [Least Squares](https://setosa.io/ev/ordinary-least-squares-regression/)
+
+# Interesting Links
+[List of metaphor-based metaheuristics](https://en.wikipedia.org/wiki/List_of_metaphor-based_metaheuristics)
