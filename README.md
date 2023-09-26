@@ -18,8 +18,10 @@
 
 # Helpful Links
 [Spectrogram](https://musiclab.chromeexperiments.com/spectrogram/)
-
+# Visually Explained 
 [Least Squares](https://setosa.io/ev/ordinary-least-squares-regression/)
+
+[Image Kernels](https://setosa.io/ev/image-kernels/)
 
 # Interesting Links
 [List of metaphor-based metaheuristics](https://en.wikipedia.org/wiki/List_of_metaphor-based_metaheuristics)
