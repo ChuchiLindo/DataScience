@@ -25,3 +25,5 @@
 
 # Interesting Links
 [List of metaphor-based metaheuristics](https://en.wikipedia.org/wiki/List_of_metaphor-based_metaheuristics)
+
+[Chain of Density Prompting](https://arxiv.org/pdf/2309.04269.pdf)
