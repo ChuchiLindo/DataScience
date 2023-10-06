@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 # Load MNIST and show montage
 
 import numpy as np # basic python
