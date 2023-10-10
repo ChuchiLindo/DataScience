@@ -131,16 +131,17 @@ torch.sum((y == Y[0:batch_size])) / batch_size
 
 ```for i in range(100000):``` - Start a loop that will run 100,000 iterations
 
-    step = 0.0000000001 # Define a small step size that will be used to update the m_best matrix in each iteration. It's a small value, likely for fine-grained adjustments
+    ```step = 0.0000000001``` ` Define a small step size that will be used to update the m_best matrix in each iteration. It's a small value, likely for fine-grained adjustments
 
-    m_random = GPU_data(np.random.randn(10, 784)) # Define a small step size that will be used to update the m_best matrix in each iteration. It's a small value, likely for fine-grained adjustments
+    ```m_random = GPU_data(np.random.randn(10, 784))``` - Define a small step size that will be used to update the m_best matrix in each iteration. It's a small value, likely for fine-grained adjustments
 
-    m = m_best  + step * m_random # Update the weight matrix m by adding a small step (step) times the random matrix (m_random) to the current m_best. This is part of the random search process, exploring different weight matrices.
+    ```m = m_best  + step * m_random``` - Update the weight matrix m by adding a small step (step) times the random matrix (m_random) to the current m_best. This is part of the random search process, exploring different weight matrices.
 
-    y = m @ X
+   ``` y = m @ X```
 
-    # Calculate the maximum value along the 0th axis (likely representing different classes or predictions) using PyTorch's argmax function. This is done to determine the predicted class for each input.
-    y = torch.argmax(y, axis=0)
+    - Calculate the maximum value along the 0th axis (likely representing different classes or predictions) using PyTorch's argmax function. This is done to determine the predicted class for each input.
+  
+    ``` y = torch.argmax(y, axis=0) 
 
     acc = ((y == Y)).sum() / len(Y)
 
@@ -148,4 +149,4 @@ torch.sum((y == Y[0:batch_size])) / batch_size
         print(acc.item())
         m_best = m
         acc_best = acc
-
+```
