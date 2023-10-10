@@ -1,11 +1,11 @@
 # Load MNIST and show montage
 
-import numpy as np # basic python
+``` import numpy as np # basic python
 import matplotlib.pyplot as plt # for plots
 import torch
 from torchvision import datasets # get the datasets to use
 from skimage.util import montage # to show montage of the images
-from skimage.io import imread
+from skimage.io import imread ```
 
 # definitions
 
