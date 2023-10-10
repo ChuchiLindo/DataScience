@@ -36,7 +36,8 @@ test_set = datasets.KMNIST('./data', train=False, download=True)
  .data extracts the data portion from the dataset.
  .numpy() converts the data from a PyTorch tensor to a NumPy array.
  X is assigned this NumPy array, contains the training images.
-X = train_set.data.numpy()
+
+``` X = train_set.data.numpy() ```
 
  test_set is to be a PyTorch dataset containing test data.
  .data extracts the data portion from the test dataset.
