@@ -34,10 +34,10 @@ def montage_plot(x):
 train_set = datasets.KMNIST('./data', train=True, download=True)
 test_set = datasets.KMNIST('./data', train=False, download=True)
 ```
- train_set is to be a PyTorch dataset containing training data.
- .data extracts the data portion from the dataset.
- .numpy() converts the data from a PyTorch tensor to a NumPy array.
- X is assigned this NumPy array, contains the training images.
+//  train_set is to be a PyTorch dataset containing training data.
+//.data extracts the data portion from the dataset.
+// .numpy() converts the data from a PyTorch tensor to a NumPy array.
+// X is assigned this NumPy array, contains the training images.
 
 ``` X = train_set.data.numpy() ```
 
