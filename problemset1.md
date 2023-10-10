@@ -38,22 +38,25 @@ test_set = datasets.KMNIST('./data', train=False, download=True)
  X is assigned this NumPy array, contains the training images.
 X = train_set.data.numpy()
 
-# test_set is to be a PyTorch dataset containing test data.
-# .data extracts the data portion from the test dataset.
-# .numpy() converts the data from a PyTorch tensor to a NumPy array.
-# X_test is assigned this NumPy array, which likely contains the test images.
+ test_set is to be a PyTorch dataset containing test data.
+ .data extracts the data portion from the test dataset.
+.numpy() converts the data from a PyTorch tensor to a NumPy array.
+ X_test is assigned this NumPy array, which likely contains the test images.
+
 X_test = test_set.data.numpy()
 
-# train_set is to be a PyTorch dataset containing training data.
-# .targets extracts the target labels from the training dataset.
-# .numpy() converts the target labels from a PyTorch tensor to a NumPy array.
-# Y is assigned this NumPy array, which likely contains the labels for the training data.
+ train_set is to be a PyTorch dataset containing training data.
+ .targets extracts the target labels from the training dataset.
+ .numpy() converts the target labels from a PyTorch tensor to a NumPy array.
+ Y is assigned this NumPy array, which likely contains the labels for the training data.
+
 Y = train_set.targets.numpy()
 
-# test_set is assumed to be a PyTorch dataset containing test data.
-# .targets extracts the target labels from the test dataset.
-# .numpy() converts the target labels from a PyTorch tensor to a NumPy array.
-# Y_test is assigned this NumPy array, which likely contains the labels for the test data.
+ test_set is assumed to be a PyTorch dataset containing test data.
+ .targets extracts the target labels from the test dataset.
+ .numpy() converts the target labels from a PyTorch tensor to a NumPy array.
+ Y_test is assigned this NumPy array, which likely contains the labels for the test data.
+
 Y_test = test_set.targets.numpy()
 
 # adds an extra dimension to the X array at index 1 (i.e., it adds a channel dimension).
