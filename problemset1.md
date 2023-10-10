@@ -31,8 +31,8 @@ def montage_plot(x):
     x = np.pad(x, pad_width=((0, 0), (1, 1), (1, 1)), mode='constant', constant_values=0)
     plot(montage(x))
 
-train_set = datasets.KMNIST('./data', train=True, download=True)
-test_set = datasets.KMNIST('./data', train=False, download=True)
+train_set = datasets.MNIST('./data', train=True, download=True)
+test_set = datasets.MNIST('./data', train=False, download=True)
 ```
 - `train_set` is to be a PyTorch dataset containing training data.
 - `.data` extracts the data portion from the dataset.
