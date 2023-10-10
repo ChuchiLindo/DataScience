@@ -1,14 +1,16 @@
 # Load MNIST and show montage
 
-``` import numpy as np # basic python
+```
+import numpy as np # basic python
 import matplotlib.pyplot as plt # for plots
 import torch
 from torchvision import datasets # get the datasets to use
 from skimage.util import montage # to show montage of the images
-from skimage.io import imread ```
+from skimage.io import imread
+```
 
 # definitions
-
+```
 def GPU(data):
     return torch.tensor(data, requires_grad=True, dtype=torch.float, device=torch.device('cuda'))
 
@@ -31,7 +33,7 @@ def montage_plot(x):
 
 train_set = datasets.KMNIST('./data', train=True, download=True)
 test_set = datasets.KMNIST('./data', train=False, download=True)
-
+```
  train_set is to be a PyTorch dataset containing training data.
  .data extracts the data portion from the dataset.
  .numpy() converts the data from a PyTorch tensor to a NumPy array.
