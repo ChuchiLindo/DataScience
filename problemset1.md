@@ -63,23 +63,25 @@ test_set = datasets.KMNIST('./data', train=False, download=True)
 
 ``` Y_test = test_set.targets.numpy()```
 
-# adds an extra dimension to the X array at index 1 (i.e., it adds a channel dimension).
-# This is typically done for compatibility with convolutional neural networks (CNNs) which
-# expect input data in the format [batch_size, channels, height, width].
-X = X[:, None, :, :] / 255
+- adds an extra dimension to the X array at index 1 (i.e., it adds a channel dimension).
+- This is typically done for compatibility with convolutional neural networks (CNNs) which
+- expect input data in the format [batch_size, channels, height, width].
+``` X = X[:, None, :, :] / 255```
 
-X_test = X_test[:, None, :, :] / 255
-X.shape
-montage_plot(X[125:150, 0, :, :])  # this actually plots it
+```X_test = X_test[:, None, :, :] / 255 ```
+```X.shape```
+- this actually plots it
+```montage_plot(X[125:150, 0, :, :])```
 
-## Run random y=mx model on MNIST
-# Reshape image data tensor from (60000, 1, 28, 28) to (60000, 784)
-X = X.reshape(X.shape[0], 784)
+- Run random y=mx model on MNIST
+- Reshape image data tensor from (60000, 1, 28, 28) to (60000, 784)
+``` X = X.reshape(X.shape[0], 784)```
 
-# Reshape image test data tensor from (60000, 1, 28, 28) to (60000, 784)
-X_test = X_test.reshape(X_test.shape[0], 784)
-X.shape
+- Reshape image test data tensor from (60000, 1, 28, 28) to (60000, 784)
+```X_test = X_test.reshape(X_test.shape[0], 784)```
+```X.shape```
 
+```
 X = GPU_data(X)
 Y = GPU_data(Y)
 X_test = GPU_data(X_test)
@@ -90,23 +92,28 @@ X.shape
 X = X.T
 
 X.shape
+```
 
-"""# Run random y=mx model on MNIST"""
-
+- """# Run random y=mx model on MNIST"""
+```
 x = X[:, 0:1]
 x.shape
 M = GPU(np.random.rand(10, 784))
+```
+- This line performs matrix multiplication between M and x.
+- It's essentially a linear transformation where M acts as weights and x is the input.
+- The result is assigned to the variable y.
 
-# This line performs matrix multiplication between M and x.
-# It's essentially a linear transformation where M acts as weights and x is the input.
-# The result is assigned to the variable y.
+```
 y = M @ x
 
 batch_size = 64
 
 x = X[:, 0:batch_size]
+```
 
-# Similar to line 3, this line initializes a new random matrix M with the same dimensions
+- Similar to line 3, this line initializes a new random matrix M with the same dimensions
+```
 M = GPU(np.random.rand(10, 784))
 
 y = M @ x
@@ -114,15 +121,15 @@ y = M @ x
 y = torch.argmax(y, 0)
 
 torch.sum((y == Y[0:batch_size])) / batch_size
+```
 
-"""# Train random walk model
+- Train random walk model
+- best weight matrix found during the search
+```m_best = 0```
+- best accuracy achieved during the search
+```acc_best = 0```
 
-"""
-
-m_best = 0 # best weight matrix found during the search
-acc_best = 0 # best accuracy achieved during the search
-
-for i in range(100000): # Start a loop that will run 100,000 iterations
+```for i in range(100000):``` - Start a loop that will run 100,000 iterations
 
     step = 0.0000000001 # Define a small step size that will be used to update the m_best matrix in each iteration. It's a small value, likely for fine-grained adjustments
 
