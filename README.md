@@ -13,7 +13,7 @@
 
 [Notebook 2 Python notes arrays & matrix]()
 
-[MNIST Dataset]
+[MNIST Dataset](https://colab.research.google.com/drive/1JCYAIQMRcziQwoEFSOzdJ8QwiDIV-JT6?usp=sharing)
 
 [Data Dashboards]
 
