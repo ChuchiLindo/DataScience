@@ -17,8 +17,6 @@
 
 [Data Dashboards]
 
-[Notebook 3 Hahn-book Deep learning with pytorch](https://colab.research.google.com/drive/1Y4sN2QWGLJHYdNnnNHS_ae9qjU4Fksf9?authuser=2#scrollTo=Zbi9NCwSZRMs)
-
 # Helpful Links
 [Spectrogram](https://musiclab.chromeexperiments.com/spectrogram/)
 # Visually Explained 
