@@ -1,7 +1,7 @@
-# DataScience
+## DataScience
 <img src = "https://cdn.futura-sciences.com/buildsv6/images/wide1920/9/5/0/950321c11d_50173256_data-science-1.jpg" width="300" height="200"  >
 
-# Problem set 1 
+## Problem set 1 
 [Problem set 1 colab](https://colab.research.google.com/drive/1FINvK6L46LflfR6kM3jm9cli2uFDs2S4?usp=sharing) 
 
 ## Google slides 50 pictures for project 
