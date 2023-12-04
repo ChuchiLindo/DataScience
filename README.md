@@ -1,6 +1,3 @@
-# Pose Detection Model by Google 
-[Pose Detection Model colab](https://colab.research.google.com/drive/1vrPeHn7qJYPE2QoCWoXk3SBjFroBZWTS?usp=sharing)
-
 # DataScience
 <img src = "https://cdn.futura-sciences.com/buildsv6/images/wide1920/9/5/0/950321c11d_50173256_data-science-1.jpg" width="300" height="200"  >
 
@@ -9,6 +6,9 @@
 
 ## Google slides 50 pictures for project 
 [Google slides](https://docs.google.com/presentation/d/1trhebZ4PCf9QhRP3bUlqgMEetYf8O9wwuYlEbyyFDxs/edit?usp=sharing)
+
+# Pose Detection Model by Google 
+[Pose Detection Model colab](https://colab.research.google.com/drive/1vrPeHn7qJYPE2QoCWoXk3SBjFroBZWTS?usp=sharing)
 
 ## Colab Notebooks
 [Notebook 1 Images ](https://colab.research.google.com/drive/1XSP0zOtB8w2Ou9cWPjY7-H5xsZ9WJv5s?authuser=2#scrollTo=OcM-MSMRmAXL)
