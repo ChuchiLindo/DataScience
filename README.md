@@ -4,6 +4,9 @@
 ## Problem set 1 
 [Problem set 1 colab](https://colab.research.google.com/drive/1FINvK6L46LflfR6kM3jm9cli2uFDs2S4?usp=sharing) 
 
+## Problem set 2 
+[Problem set 2 colab](https://colab.research.google.com/drive/1l0FcfmGXH2NaulkWbWnj1GkdESr7-P9Z?usp=sharing) 
+
 ## Google slides 50 pictures for project 
 [Google slides](https://docs.google.com/presentation/d/1trhebZ4PCf9QhRP3bUlqgMEetYf8O9wwuYlEbyyFDxs/edit?usp=sharing)
 
